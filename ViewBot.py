@@ -15,6 +15,3 @@ while (count < 3):
     sleep(100)
     webbrowser.open_new_tab("https://www.youtube.com/watch?v=NwcXXqCxwpE")
     sleep(100)
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=NwcXXqCxwpE")
-    sleep(100)
-    webbrowser.open_new_tab("https://www.youtube.com/watch?v=NwcXXqCxwpE")
