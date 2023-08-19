@@ -21,19 +21,19 @@ def main():
         webbrowser.open_new_tab("www.youtube.com/") #Opens a new Tab in your Standard Webbrowser.
         time.sleep(1) #Waits for 1 second before Counting one Up.
         Count += 1 #Counts one Up.
-        print("starting a new Webbrowser Tab...") #WIP
+        print("starting a new Webbrowser Tab...") #just showing some text in the python output
         time.sleep(2) #Waits for 1 second before executing the print
-        print("started a new Webbrowser Tab.") #WIP
+        print("started a new Webbrowser Tab.") #just showing some text in the python output
     if Count == 10:
         webbrowser.close_new_tab("www.youtube.com/") #Closes the new Tab which were opened in your Standard Webbrowser.
         time.sleep(2)
-        print("PyBr0C.py will be restarted in 5 seconds.")
+        print("PyBr0C.py will be restarted in 5 seconds.") #just showing some text in the python output
         time.sleep(5)
-        print("restarting PyBr0C.py...")
+        print("restarting PyBr0C.py...") #just showing some text in the python output
         exec("PyBr0C.py")
-        print("PyBr0C.py has been restarted.")
+        print("PyBr0C.py has been restarted.") #just showing some text in the python output
         time.sleep(2)
-        print("PyBr0C.py exiting this instance...")
+        print("PyBr0C.py exiting this instance...") #just showing some text in the python output
         time.sleep(1)
-        print("PyBr0C.py exits now.")
+        print("PyBr0C.py exits now.") #just showing some text in the python output
         exit()
